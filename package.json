@@ -4,12 +4,13 @@
   "description": "基于QNUI的React+Redux+Next多页面应用解决方案",
   "main": "index.js",
   "fieOption": {
-    "icon": "",
+    "thumb": "http://img3.tbcdn.cn/5476e8b07b923/TB163CtPXXXXXXlXFXXXXXXXXXX",
     "type": "toolkit",
     "update": false,
     "displayName": "fie-toolkit-qnui",
     "serverOpener": "toolkit",
-    "moduleName": "fie-toolkit-qnui"
+    "moduleName": "fie-toolkit-qnui",
+    "chName": "QNUI-ISV业务脚手架"
   },
   "dependencies": {
     "chalk": "^1.1.3",
@@ -52,6 +53,7 @@
   "publishConfig": {
     "registry": "http://registry.npm.alibaba-inc.com"
   },
+
   "keywords": [
     "React",
     "Redux",
