@@ -1,0 +1,9 @@
+node_modules/
+.travis.yml
+*.swp
+.DS_Store
+.idea
+src
+test
+coverage
+.nyc_outputw

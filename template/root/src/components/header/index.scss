@@ -1,0 +1,70 @@
+@import "../../styles/theme.scss";
+
+$height: 50px;
+
+.header-component {
+  .sitenav {
+    position: fixed;
+    width: 100%;
+    height: $height;
+    color: white;
+    z-index: 100;
+    clear: both;
+    background: #ADDADD;
+    font-size: 16px;
+    font-weight: bolder;
+    min-width: 990px;
+    .header-item{
+      background: #ADDADD;
+      margin-left: 1px;
+      &:hover{
+        background: #ADDAD4;
+      }
+    }
+    .header-left{
+      float: left;
+    }
+    .header-right{
+      float: right;
+    }
+    .header-icon{
+      padding: 10px;
+      width: 100px;
+      height: $height;
+    }
+    .header-info{
+      > a {
+        color: white;
+      }
+      padding: 0 20px;
+      line-height: $height;
+      height: $height;
+      position: relative;
+      z-index: 3;
+    }
+    .header-select{
+      line-height: $height;
+      height: $height;
+      padding: 0 20px;
+      position: relative;
+      z-index: 3;
+      a{
+        color: white;
+        text-decoration: none;
+      }
+      .selectIcon{
+        vertical-align: middle;
+        margin: 0 5px;
+      }
+    }
+    .header-user{
+      padding: 5px 30px;
+      width: 40px;
+      box-sizing: initial;
+      height: 40px;
+      img{
+        border-radius: 50%;
+      }
+    }
+  }
+}

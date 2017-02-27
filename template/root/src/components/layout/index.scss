@@ -1,0 +1,16 @@
+@import "../../styles/theme.scss";
+.container {
+  width: 100%;
+  .main-content {
+    overflow: hidden;
+    .right-content {
+      padding-left: 65px;
+      width: 100%;
+      margin-top: 80px;
+      //transition: padding 1s linear;
+      &.right-content-full{
+        padding-left: 185px;
+      }
+    }
+  }
+}
