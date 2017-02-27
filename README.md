@@ -91,11 +91,6 @@ $ fie add data [name]                     # 添加本地数据接口
 $ fie add c [name]                        # 添加组件
 ```
 
-### 配置平台主题相关
-
-项目默认主题@alife/dpl-next-qn: 对应配置平台连接 [@alife/dpl-toolkit-next](http://fusion-design.alibaba-inc.com/theme/detail/373)
-
-
 ## 项目说明
 
 ### 目录结构
