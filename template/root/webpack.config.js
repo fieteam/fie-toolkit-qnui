@@ -69,7 +69,7 @@ var config = {
     'react-router-redux': 'ReactRouterRedux',
     'redux-thunk': 'var window.ReduxThunk.default',
     'redux': 'Redux',
-    'qnui': 'Next',
+    'qnui': 'qnui',
     'react/lib/ReactTransitionGroup': 'var window.React.addons.TransitionGroup',
     'react/lib/ReactCSSTransitionGroup': 'var window.React.addons.CSSTransitionGroup'
   },

@@ -1,6 +1,6 @@
 {
   "name": "fie-toolkit-qnui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "基于QNUI的React+Redux+Next多页面应用解决方案",
   "main": "index.js",
   "fieOption": {
@@ -44,6 +44,12 @@
       "version": "0.0.1",
       "log": [
         "feature: 初始化项目"
+      ]
+    },
+     {
+      "version": "0.0.2",
+      "log": [
+        "bugfix: 修改依赖为0.3.1"
       ]
     }
   ],
