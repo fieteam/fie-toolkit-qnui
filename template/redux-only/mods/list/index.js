@@ -3,7 +3,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../actions/index';
-import { Button, Feedback } from '@alife/qnui';
+import { Button, Feedback } from 'qnui';
 
 import './index.scss';
 

@@ -3,7 +3,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../actions/page2';
-import {Button} from '@alife/qnui';
+import {Button} from 'qnui';
 import './index.scss';
 
 class Page2 extends React.Component {

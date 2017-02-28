@@ -14,6 +14,11 @@
 </head>
 <body>
 <div id="container"><div class="c-loading">页面加载中...</div></div>
+<script>
+//请根据页面所处的环境,设置不同的变量:local/development/pre/production
+//用于ajax请求接口进行切换
+window.apienv = 'local';
+</script>
 <!-- 需要替换的链接 Start -->
 <script src="/node_modules/babel-polyfill/dist/polyfill.js"></script>
 <script src="/node_modules/react/dist/react-with-addons.js"></script>

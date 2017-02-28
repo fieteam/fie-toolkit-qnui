@@ -2,8 +2,6 @@
 
 import React from 'react';
 import { Route, IndexRoute } from 'react-router';
-import setSpm from '@alife/set-spm';
-
 import Layout from 'components/layout/index';
 import Home from './containers/home/index';
 import Page1 from './containers/page1/index';
@@ -19,14 +17,12 @@ const menuMap = {
 
 const onRouteEnter = (nextState, replace, callback) => {
   callback();
-  setSpm(nextState.routes[1].spm);
   //根据路由设置菜单选中
   let routePath = nextState.location.pathname;
   window.selectedMenuKey = menuMap[routePath];
 };
 const onRouteChange = (prevState, nextState, replace, callback) => {
   callback();
-  setSpm(nextState.routes[1].spm);
   document.title = nextState.routes[1].title || pageTitle;
   //根据路由设置菜单选中
   let routePath = nextState.location.pathname;

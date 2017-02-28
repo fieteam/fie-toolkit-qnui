@@ -13,8 +13,7 @@ globby([
   'node_modules/react-router/umd/*',
   'node_modules/react-router-redux/dist/*',
   'node_modules/redux-thunk/dist/*',
-  'node_modules/redux/dist/*',
-  'node_modules/qnui/dist/*'
+  'node_modules/redux/dist/*'
 ]).then(paths => {
   fs.mkdirsSync('build/lib/');
   paths.forEach((item) => {

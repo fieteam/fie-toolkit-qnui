@@ -1,12 +1,12 @@
 {
-  "name": "toolkit-demo",
-  "description": "toolkit-demo",
+  "name": "qnui-demo",
+  "description": "qnui-demo",
   "version": "0.1.0",
   "keyword": [
-    "next",
-    "fusion",
+    "qnui",
+    "ISV",
     "pc",
-    "toolkit-demo"
+    "fie-toolkit-qnui"
   ],
   "scripts": {
     "start": "DEV=1 LIVELOAD=1 ./node_modules/.bin/webpack-dev-server --config ./webpack.config.js --host 0.0.0.0 --port 9000",
@@ -29,7 +29,8 @@
     "react-router-redux": "^4.0.4",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
-    "reqwest": "~2.0.5"
+    "reqwest": "~2.0.5",
+    "classnames":"^2.2.5"
   },
   "devDependencies": {
     "sass-loader": "*",
@@ -63,11 +64,6 @@
     "webpack": "~1.12.14",
     "webpack-dev-server": "~1.14.1",
     "eslint-config-ali": "*",
-    "eslint-plugin-jsx-a11y": "*",
-    "@ali/ci-log": "*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@gitlab.alibaba-inc.com:qn/toolkit-demo.git"
+    "eslint-plugin-jsx-a11y": "*"
   }
 }
