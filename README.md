@@ -40,7 +40,7 @@ $ fie install toolkit-qnui
 
 ```
 
-该套件依赖 [Node.js](http://nodejs.org/) 、 [npm](http://www.npmjs.com) 、 [fie](http://fie.alibaba.net/) 。请先确保本机已安装了fie的运行环境，若第一次使用，请[参考该文档进行环境搭建](http://fie.alibaba.net/doc)。
+该套件依赖 [Node.js](http://nodejs.org/) 、 [npm](http://www.npmjs.com) 、 [fie](https://github.com/fieteam/fie) 。请先确保本机已安装了fie的运行环境，若第一次使用，请[参考该文档进行环境搭建](https://github.com/fieteam/fie)。
 
 
 ## 参数配置
