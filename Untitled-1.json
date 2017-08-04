@@ -1,0 +1,109 @@
+## 0.5.0 / 2017-06-23 17:02:59
+
+|组件|版本号|升级时间|日志|
+|---|---|---|---|
+|next-core|0.4.18|2017-06-05| - `fix` update icon data |
+||0.4.17|2017-05-22| - `chore` replace @ali/husky with husky to support tnpm ii |
+||0.4.16|2017-05-11| - `fix` update icon-size and icon-square-size mixin |
+||0.4.15|2017-05-11|- `feat` add icon-square-size |
+||0.4.14|2017-05-09| - `fix` remove font-smoothing and add new icon-size mixin <br/> - `fix` fixed mixin <br/> - `chore` update .cise.yml |
+|next-dialog|0.4.1|2017-06-07| - `fix` Not revert size when dialog open first. |
+||0.4.0|2017-05-27| - `style` eslint update <br/> - `fix` fixed dialog modal opacity config <br/>- `chore` replace @ali/husky with husky to support tnpm ii <br/> - `fix` xxs icon issue <br/> - `feat` update animation <br/> - `chore` update .cise.yml |
+|next-slider|0.4.0|2017-05-27| - `style` fix icon size <br/> - `chore` replace @ali/husky with husky to support tnpm ii <br/> - `feat` add props animation <br/> - `fix` support ie8 <br/> - `style` add animation <br/> - `style` update styles for slick dots <br/> - `refactor` update className of arrow <br/> - `style` update arrow styles <br/> - `style` add animation for dots and arrow <br/> - `docs` update api docs <br/> - `fix` update code <br/> - `refactor` remove object-assign <br/> - `chore` update .cise.yml |
+|next-search|0.6.5|2017-06-02| - `fix` icon size |
+||0.6.4|2017-06-02| - `fix` fix arrow <br/> - `fix` height for normal button C - `fix` ease 0.3s to hover <br/> - `fix` icon alone middle C - `fix` 配置平台不同size的字体单独配置 C - `feat` doc 优化，受控问题fix <br/> - `chore` replace @ali/husky with husky to support tnpm ii <br/> - `fix` xxs icon issue <br/> - `chore` update .cise.yml |
+|next-grid|0.5.7|2017-06-21| `fix` demo issue and update coverage <br/> `chore` replace @ali/husky with husky to support tnpm ii |
+||0.5.6|2017-05-17| `fix` do not reset across row margin top and bottom <br/> `fix` support ie9 isomorphic <br/> `chore` update .cise.yml |
+|next-table|0.6.0|2017-06-19|- `test` update uitest. <br/>- `feat` Add getRowProps support. <br/>- `fix` Cl- `feat` Add hover color support. Cl- `docs` Add  details information. C- `fix` Make thead align support. Cl- `fix` filterParams error. |
+||0.5.13|2017-06-09|- `fix` filterParams can't update. <br/>- `feat` 添加支持手动设置filterParams支持 |
+||0.5.12|2017-05-27|- `chore` replace @ali/husky with husky to support tnpm ii <br/>- `fix` xxs icon issue |
+||0.5.11|2017-05-08|- `fix` Cl- `docs` Optimize docs. <br/>- `test` Modify test case and meta. <br/>- `fix` Now can access first & last cell by className. C- `fix` compat with IE10. C- `chore` update .cise.yml |
+||0.5.10|2017-04-24|- `fix` Remove notCellRenderIndex and make preact test pass. <br/>- `fix` eslint error. <br/>- `fix` C5| - `fix` Display clear btn when disabled. Cl - `style` Optimize select ui display. <br/> - `fix` animation. |
+||0.6.13|2017-05-27| - `fix` Resolve conflict <br/> - `docs` Cl - `fix` support text overflow when combobox multiple. Cl - `chore` replace @ali/husky with husky to support tnpm ii <br/> - `fix` xxs icon issue <br/> - `fix` xxs icon issue <br/> - `chore` update .cise.yml |
+||0.6.12|2017-04-25| - `fix` Select value error when using keyboard. |
+|next-icon|0.1.13|2017-05-11| `chore` update .cise.yml |
+|next-balloon|0.4.0|2017-05-27|] - `feat` animate <br/> - `chore` replace @ali/husky with husky to support tnpm ii <br/>  - `docs` container doc <br/> - `feat` container for overlay <br/> - `fix` xxs icon issue <br/> - `test` update uitest screen <br/> - `fix` xxs icon i - `feat` animation to zoomBig <br/> - `chore` update .cise.yml |
+|next-button|0.1.46|2017-06-06| - `chore` fix theme demo |
+||0.1.45|2017-06-05| - `fix` pass style to split-button wrapper, c - `docs` update api docs |
+||0.1.44|2017-05-31| - `fix` ease time to 0.3s <br/> - `chore` replace @ali/husky with husky to support tnpm ii |
+||0.1.43|2017-05-15| - `fix` icon xss i - `chore` update .cise.yml |
+||0.1.42|2017-04-24| - `test` modify shallow to mount mode. |
+|next-menu|0.5.1|2017-06-19| `fix` Animation when subMenu inline mode. |
+||0.5.0|2017-05-27| `test` update uitest <br/> `fix` outside mode display. <br/> `fix` nav slidedown problem <br/> `fix` remove useless animate. <br/> `docs` Add readme docs. <br/> `fix` select animation. <br/> `fix` selectedIcon animation <br/> `fix` subMenu popup animation. <br/> `fix` Add hoz menu animation. <br/> `chore` replace @ali/husky with husky to support tnpm ii |
+||0.4.8|2017-05-18| `fix` subMenu popup style. <br/> `fix` subMenu click not hidden when hover. <br/> `fix` xxs icon issue <br/> `feat` Add icon animation. <br/> `fix` Modify disabled color. C `fix` Make animation work. <br/> `chore` update .cise.yml <br/> `test` Update uitest screen shoot. |
+|next-form|0.3.1|2017-05-26| `fix` prefix <br/> `docs` update readme <br/> `chore` replace @ali/husky with husky to support tnpm ii <br/> `docs` auto update README.md |
+||0.3.0|2017-05-08| `chore` update .cise.yml <br/> `docs` labelCol usage C `refactor` fix display disorder when labelAlign=top mix use with inset C - `docs` api for List <br/> - `docs` form with error msg C - `test` add uitest for list <br/> - `fix` promise for beforeUpload C - `fix` support accept for cropUpload C - `fix` remove close while disabled Cl - `feat` add closable for Upload.List <br/> - `feat` add upload.List Cl - `chore` replace @ali/husky with husky to support tnpm ii <br/> - `fix` lint error <br/> - `fix` xxs icon issue |
+||0.15.2|2017-05-10| - `docs` fileServer doc update |
+||0.15.1|2017-05-09| - `fix` uitest update <br/> - `fix` flash z-index问题和reset undefined问题 C - `chore` update .cise.yml |
+||0.15.0|2017-04-18| - `docs` docs op <br/> - `feat` CropUpload - API cropSize support number or object C- `fix` scrollToFirstError use with autoUnmount C- `docs` add apitest and update docs for deepReset C- `fix` defaultValue <br/>- `chore` replace @ali/husky with husky to support tnpm ii |
+||0.6.0|2017-05-09|- `feat` support deepReset:set value=undefined when reset  C- `docs` update usage of getValueFromEvent <br/>- `chore` update .cise.yml <br/>- `feat` support autoUnmount Close [nex- `chore` update .cise.yml |
+|next-moment|0.1.8|2017-06-19| - `docs` update user guide <br/> - `test` add test <br/> - `chore` replace @ali/husky with husky to support tnpm ii <br/> - `chore` update .cise.yml <br/> - `chore` update .cise.yml |
+|next-feedback|0.5.1|2017-05-31|)] - `fix` #33 |
+||0.5.0|2017-05-27|)] - `chore` replace @ali/husky with husky to support tnpm ii |
+||0.4.6|2017-05-11|)] - `test` update uitest screen <br/>)] - `fix` xxs icon issue <br/>)] - `chore` update .cise.yml |
+|next-notice|0.2.6|2017-06-06| - `feat` add enable animation interface and update animation logic |
+||0.2.5|2017-05-26| - `fix` lint error <br/> - `fix` use custom js code control transition instead of Animate Component <br/> - `feat` update animation <br/> - `chore` replace @ali/husky with husky to support tnpm ii |
+||0.2.4|2017-05-17| - `test` update uitest screen <br/> - `fix` xxs icon issue <br/> - `chore` update .cise.yml |
+|next-pagination|0.5.8|2017-06-07|b9)] - `fix` default current issue |
+||0.5.7|2017-05-31|4e)] - `fix` #35 <br/>b4)] - `fix` #37 <br/>fc)] - `chore` replace @ali/husky with husky to support tnpm ii |
+||0.5.6|2017-05-02|f3)] - `fix` current is wrong when default current is more than total page number <br/>2d)] - `chore` update .cise.yml |
+|next-tag|0.5.3|2017-06-20|`docs` update demos <br/>`fix` update scss variable labels <br/>`docs` update api description and usage guide |
+||0.5.2|2017-05-27|`fix` remove animation mixin |
+||0.5.1|2017-05-27|`style` update variable values <br/>`style` update animation for interactive tag <br/>`style` add animation for tag |
+||0.5.0|2017-05-24|`test` update unit test <br/>`fix` allow close animation, c`style` update icon size <br/>`style` update animation <br/>`chore` replace @ali/husky with husky to support tnpm ii |
+||0.4.5|2017-05-15|`docs` update api docs <br/>`chore` update .cise.yml |
+|next-checkbox|0.3.2|2017-06-06|)] - `fix` icon xxs font-size < 12px transform problem |
+||0.3.0|2017-05-27|)] - `feat` indeterminate fixed and frame to transtion <br/>)] - `feat` animate <br/>)] - `chore` replace @ali/husky with husky to support tnpm ii <br/>)] - `fix` xxs )] - `feat` animate <br/>)] - `chore` update .cise.yml |
+|next-date-picker|0.6.18|2017-06-15|bca)] - `fix` F12d)] - `fix` disabled functions add valueOf api |
+||0.6.15|2017-06-05|ac5)] - `fix` rangepicker config on theme C9d0)] - `fix` fixed control |
+||0.6.12|2017-05-31|9b9)] - `fix` F7cf)] - `fix` update uitest |
+||0.6.11|2017-05-25|a95)] - `feat` select a date and init the time as 00:00:00 <br/>c5a)] - `chore` replace @ali/husky with husky to support tnpm ii |
+||0.6.10|2017-05-17|eec)] - `test` add test case |
+||0.6.9|2017-05-17|4d1)] - `fix` fixed ie8 css <br/>997)] - `fix` F6d2)] - `fix` Fixed style props |
+||0.6.7|2017-05-12|99d)] - `fix` fixed range picker format |
+||0.6.6|2017-05-11|c87)] - `fix` fixed locale |
+||0.6.5|2017-05-11|dca)] - `fix` xxs aaf)] - `fix` delete panel border radius config |
+||0.6.3|2017-05-10|553)] - `fix` F9df)] - `feat` update ui and add api |
+||0.5.8|2017-04-24|7ce)] - `fix` add panel shadow |
+|next-number-picker|0.5.1|2017-06-06|f06e7)] - `chore` fix theme demo |
+||0.5.0|2017-05-27|df978)] - `style` add border&background for handler <br/>198eb)] - `feat` update hover animation <br/>5202a)] - `chore` replace @ali/husky with husky to support tnpm ii <br/>1b538)] - `fix` xxs icon issue <br/>57daf)] - `fix` xxs icon issue <br/>efca0)] - `fix` xxs icon issue <br/>225c7)] - `docs` update readme <br/>63faa)] - `docs` for readme <br/>776bf)] - `fix` reset when value=undefined, related to [next20797)] - `chore` update .cise.yml |
+|next-radio|0.4.5|2017-06-20|- `test` update apitest <br/>- `fix` react15.6.0 radio onChange bug fixed. |
+||0.4.4|2017-06-09|- `fix` fix bug of value===0 |
+||0.4.3|2017-06-06|- `fix` defaultProps value='' |
+||0.4.1|2017-05-27|- `feat` delete holding <br/>- `chore` replace @ali/husky with husky to support tnpm ii <br/>- `feat` animate and reset to undefined <br/>- `chore` update .cise.yml |
+|next-range|0.5.7|2017-05-24|- `feat` throttle <br/>- `feat` animate update <br/>- `chore` replace @ali/husky with husky to support tnpm ii <br/>- `fix` left slider display none C- `fix` tempValue no reset bug <br/>- `chore` update .cise.yml |
+|next-switch|0.2.2|2017-05-31| - `fix` rollback to old animation |
+||0.2.0|2017-05-27| - `feat` animate add water <br/> - `chore` replace @ali/husky with husky to support tnpm ii <br/> - `chore` update .cise.yml |
+|next-input|0.7.0|2017-06-22|- `feat` add api textIndent C- `docs` open refs api  for Input C- `feat` add api trim C- `fix` word-break on max-length C- `fix` remove clear while readonly=true C- `test` apitest update C- `fix` remove border inhtmlType=file  C- `fix` prevent onBlur after clear btn clicked C- `docs` loading&sucess not support in multiple mode C- `feat` add background for hover and focus <br/>- `fix` bg color for input C- `chore` replace @ali/husky with husky to support tnpm ii <br/>- `fix` xxs icon issue <br/>- `fix` xxs icon issue <br/>- `docs` auto update README.md |
+||0.5.10|2017-05-03|- `chore` update .cise.yml <br/>- `fix` min-height for textarea C- `fix` hasClear width style in hoz form Close [nex] - `fix` Maybe throw error when ref is function. |
+||0.7.1|2017-05-31|] - `docs` Add intro for overlay. <br/>] - `fix` revert animation. |
+||0.7.0|2017-05-27|] - `docs` api to comments. <br/>] - `fix` Destory resize events when component unmounted. C] - `fix` Add position className for overlay content. <br/>] - `chore` replace @ali/husky with husky to support tnpm ii |
+||0.6.4|2017-05-08|] - `docs` C] - `fix` e is undefined. C] - `chore` update .cise.yml |
+|next-time-picker|0.2.11|2017-05-27|949)] - `test` update uitest |
+||0.2.10|2017-05-26|610)] - `fix` 487)] - `chore` replace @ali/husky with husky to support tnpm ii |
+||0.2.8|2017-05-17|0f7)] - `test` add uitest case <br/>3c9)] - `fix` xxs icon issue |
+||0.2.7|2017-05-17|10e)] - `fix` Fixed style props |
+||0.2.5|2017-05-10|7fb)] - `fix` add panel shadow config |
+||0.2.4|2017-05-09|d00)] - `fix` fixed id |
+||0.2.3|2017-05-09|9c6)] - `fix` 202)] - `fix` add hasClear |
+||0.2.0|2017-05-02|7a7)] - `fix` fixed eslint <br/>4f0)] - `feat` update ui and add some api |
+|next-progress|0.1.17|2017-06-21|)] - `fix` clear timeout, )] - `style` update animation duration and timing function <br/>)] - `style` add animation <br/>)] - `docs` update demo |
+||0.1.15|2017-05-19|)] - `chore` replace @ali/husky with husky to support tnpm ii <br/>)] - `docs` update api docs |
+||0.1.14|2017-05-08|)] - `refactor` update ref callback <br/>)] - `docs` format docs <br/>)] - `chore` update .cise.yml |
+|next-step|0.4.0|2017-06-19| `refactor` change finishNode to itemRender <br/> `test` add test for finishNode <br/> `feat` allow customize finish node via finishNode C `fix` using classList methods <br/> `fix` update implementation of click animation |
+||0.3.1|2017-05-31| `fix` update implementation of click |
+||0.3.0|2017-05-27| `fix` update node className <br/> `fix` allow close animation <br/> `style` change animation duration from 0.4s to 0.2s <br/> `style` using zoomIn for icon <br/> `style` change fadeInDown from 0.2s to 0.4s <br/> `style` add animation |
+||0.2.6|2017-05-18| `fix` update resize <br/> `fix` update resize <br/> `chore` replace @ali/husky with husky to support tnpm ii <br/> `fix` xxs icon issue <br/> `docs` update api docs <br/> `chore` update .cise.yml |
+|next-breadcrumb|0.2.6|2017-06-19|64)] - `fix` #4 |
+||0.2.5|2017-05-31|0f)] - `fix` 0.2s ease-out to text <br/>18)] - `chore` replace @ali/husky with husky to support tnpm ii |
+||0.2.4|2017-05-10|4b)] - `test` update uitest screen <br/>4b)] - `docs` update theme demo <br/>2e)] - `fix` xxs icon width issue <br/>b4)] - `docs` update HISTORY.md <br/>c4)] - `chore` update .cise.yml |
+|next-tab|0.8.5|2017-06-15|`test` update unit tests <br/>`feat` allow close animation, c`fix` remove animation for tabpane <br/>`test` add test for extra, tabPosition |
+||0.8.4|2017-06-07|`fix` update inject node of next-animate, c`fix` update the logic of config close-icon offset |
+||0.8.2|2017-06-05|`style` fix corner radius config, c`fix` update configs of close icon, c`style` update selected border value for capsule tab |
+||0.8.0|2017-05-27|`style` update appear/leave animation for tabs-tab <br/>`fix` set line-height for nav extra, c`style` update animation for tabpane <br/>`style` refacotr tab styles <br/>`style` refacotr tab styles <br/>`style` update tab animation <br/>`chore` replace @ali/husky with husky to support tnpm ii <br/>`docs` update api docs <br/>`style` update icon variable value <br/>`style` fix default styles <br/>`style` add animation for bar-tab <br/>`style` add animation for bar-tab <br/>`refactor` update codes <br/>`fix` compute offset first |
+||0.7.5|2017-05-04|`test` update unit tests <br/>`fix` fix style error in ie8 <br/>`fix` update sequence of setting contentHeight <br/>`fix` update logic of setting content height <br/>`fix` add minHeight for tab-content when tabPosition=left|right, c`fix` allow config hover color of navigation icon, c`docs` add demo of grid with tab <br/>`chore` update .cise.yml |
+|next-tree|0.7.1|2017-06-21| `fix` `fix` drag issue |
+||0.7.0|2017-06-12| `feat` add isLabelBlock interface |
+||0.6.1|2017-05-31| `fix` animation issue when draging <br/> `fix` revert to tree will highlight selected tree node when enable tree checkable |
+||0.6.0|2017-05-31| `feat` add aniamtion |
+||0.5.3|2017-05-26| `chore` replace @ali/husky with husky to support tnpm ii <br/> `fix` add halfCheckedKeys in onCheck callback arguments <br/> `chore` update .cise.yml |
