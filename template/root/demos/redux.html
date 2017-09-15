@@ -1,40 +1,45 @@
 <!doctype html>
 <html class="no-js">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>index</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="//g.alicdn.com/qn/QNUI-OPEN/0.5.1/qnui.min.css">
+  <link rel="stylesheet" href="//g.alicdn.com/qn/QNUI-OPEN/0.6.0/qnui.min.css">
   <!-- 需要替换的链接 Start -->
   <link rel="stylesheet" href="/build/pages/redux/index.bundle.css">
   <!-- 正式环境中,请将上面几个链接替换为下面的链接,注意 {version} 改为你对应的资源版本号 -->
   <!--<link rel="stylesheet" href="//g.alicdn.com//{version}??lib/next.css,pages//index.bundle.css">-->
 </head>
+
 <body>
-<div id="container"><div class="c-loading">页面加载中...</div></div>
-<script>
-//请根据页面所处的环境,设置不同的变量:local/development/pre/production
-//用于ajax请求接口进行切换
-window.apienv = 'local';
-</script>
-<!-- 需要替换的链接 Start -->
-<script src="/node_modules/babel-polyfill/dist/polyfill.js"></script>
-<script src="/node_modules/react/dist/react-with-addons.js"></script>
-<script src="/node_modules/react-dom/dist/react-dom.js"></script>
-<script src="/node_modules/redux/dist/redux.js"></script>
-<script src="/node_modules/react-redux/dist/react-redux.js"></script>
-<script src="/node_modules/react-router/umd/ReactRouter.js"></script>
-<script src="/node_modules/react-router-redux/dist/ReactRouterRedux.js"></script>
-<script src="/node_modules/redux-thunk/dist/redux-thunk.js"></script>
-<!-- 正式环境中,请将上面几个链接替换为下面这个链接,注意 {version} 改为你对应的资源版本号，如果你的CDN不支持combo，则需要分开写 -->
-<!--<script src="//你的CDN地址//{version}??lib/polyfill.min.js,lib/react-with-addons.min.js,lib/react-dom.min.js,lib/redux.min.js,lib/react-redux.min.js,lib/ReactRouter.min.js,lib/ReactRouterRedux.min.js,lib/redux-thunk.min.js"></script>-->
-<!-- 这里是qnui的CDN版本，你可以直接使用 -->
-<script src="//g.alicdn.com/qn/QNUI-OPEN/0.5.1/qnui.min.js"></script>
-<!-- 以下是你的业务代码 -->
-<!--<script src="//你的CDN地址//{version}??vendor.js,pages/index/index.js"></script>-->
-<script type="text/javascript" src="/build/vendor.js"></script>
-<script type="text/javascript" src="/build/pages/redux/index.js"></script>
+  <div id="container">
+    <div class="c-loading">页面加载中...</div>
+  </div>
+  <script>
+    //请根据页面所处的环境,设置不同的变量:local/development/pre/production
+    //用于ajax请求接口进行切换
+    window.apienv = 'local';
+  </script>
+  <!-- 需要替换的链接 Start -->
+  <script src="/node_modules/babel-polyfill/dist/polyfill.js"></script>
+  <script src="/node_modules/react/dist/react-with-addons.js"></script>
+  <script src="/node_modules/react-dom/dist/react-dom.js"></script>
+  <script src="/node_modules/redux/dist/redux.js"></script>
+  <script src="/node_modules/react-redux/dist/react-redux.js"></script>
+  <script src="/node_modules/react-router/umd/ReactRouter.js"></script>
+  <script src="/node_modules/react-router-redux/dist/ReactRouterRedux.js"></script>
+  <script src="/node_modules/redux-thunk/dist/redux-thunk.js"></script>
+  <!-- 正式环境中,请将上面几个链接替换为下面这个链接,注意 {version} 改为你对应的资源版本号，如果你的CDN不支持combo，则需要分开写 -->
+  <!--<script src="//你的CDN地址//{version}??lib/polyfill.min.js,lib/react-with-addons.min.js,lib/react-dom.min.js,lib/redux.min.js,lib/react-redux.min.js,lib/ReactRouter.min.js,lib/ReactRouterRedux.min.js,lib/redux-thunk.min.js"></script>-->
+  <!-- 这里是qnui的CDN版本，你可以直接使用 -->
+  <script src="//g.alicdn.com/qn/QNUI-OPEN/0.6.0/qnui.min.js"></script>
+  <!-- 以下是你的业务代码 -->
+  <!--<script src="//你的CDN地址//{version}??vendor.js,pages/index/index.js"></script>-->
+  <script type="text/javascript" src="/build/vendor.js"></script>
+  <script type="text/javascript" src="/build/pages/redux/index.js"></script>
 </body>
+
 </html>
